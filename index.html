@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Charadas</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <div class="header">
+            <h1>🧠Charadas🧠</h1>
+        </div>
+        
+        <div id="textocharada" class="charada"></div>
+
+        <div class="form-group">
+          <input type="text" id="respostaUsuario" placeholder="Digite sua resposta...">
+        </div>
+
+        <div id="response" class="response-area hidden"></div>
+
+        <div class="buttons">
+            <button class="btn-new" onclick="getCharada()">
+              🔃 Nova Charada
+            </button>
+          <button class="btn-validate"onclick=" validateResponse()">
+            ✅ Validar
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
