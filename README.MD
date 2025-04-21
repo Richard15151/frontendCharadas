@@ -1,6 +1,6 @@
 ### Curso Técnico de Desenvolvimento de Sistemas - Senai Itapeva
 
-![Imagem de capa](/gifs/CHARADASFRONT.gif)
+![Imagem de capa](/gifs/capauser.gif)
 
 **Descrição:**
 
