@@ -1,4 +1,4 @@
-const baseUrl = "http://127.0.0.1:5000/";
+const baseUrl = "https://ap-icharada.vercel.app/";
 const aleatorio = "charadas";
 let res = document.getElementById('textocharada');
 let respostaElemento = document.getElementById('response');
